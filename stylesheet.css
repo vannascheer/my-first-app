@@ -13,6 +13,13 @@ body {
   width: 31.3%;
   float: left;
   margin: 1%;}
+
+  @media screen and (max-width: 800px) {
+    .column1, .column2, .column3 {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
 .column3 {margin-right: 0%;}
 li {
   display: inline;
@@ -27,3 +34,15 @@ li {
 
 a:hover {
     background-color: pink;
+
+
+    img{
+      width:100%;
+      max-width:100%;
+    }
+
+    .image-wrapper{
+      position: relative;
+      display: block;
+      width:200px;
+    }
